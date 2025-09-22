@@ -85,5 +85,6 @@ Key factors influencing repayment ability:
 * Level of Education: Lower education
 * Occupation Type: Physical jobs
 * External Score: Low score
+
 Best performing model: LightGBM – most effective in predicting customers’ repayment capacity
 Business implication: These insights can help lenders design more accurate credit risk assessment strategies and provide fairer access to loans for customers capable of repayment.
