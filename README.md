@@ -1,5 +1,6 @@
 # Predict clients’ repayment ability (Python-Project) 
-Source code: https://colab.research.google.com/drive/1A1GKZEv-DNLi_sVChMHL2M5ugjQVx_3L#scrollTo=6_cwdJSRSTyY
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/https://colab.research.google.com/drive/1A1GKZEv-DNLi_sVChMHL2M5ugjQVx_3L#scrollTo=6_cwdJSRSTyY)
+
 ## I. Context
   Millions of people are denied access to loans because they lack sufficient credit history, leaving them vulnerable to unfair lending practices. Home Credit aims to address this issue by leveraging alternative data sources, such as telco and transactional information, to better predict clients’ repayment ability. 
 The challenge is to develop machine learning models that expand financial inclusion by ensuring capable borrowers are approved and provided with fair, supportive loan terms.
