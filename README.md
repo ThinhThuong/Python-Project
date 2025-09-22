@@ -40,12 +40,15 @@ The challenge is to develop machine learning models that expand financial inclus
 In the chart, where the x-axis is ordered from lower to higher education levels, indicates that customers with higher education tend to have fewer repayment difficulties compared to those with lower educational attainment.
 
 ### 4. `Occupation type` feature
-<img width="1280" height="720" alt="Slide21" src="https://github.com/user-attachments/assets/efe657e7-8c2a-4532-a1da-82ed953d6ff3" />
+<img width="1280" height="720" alt="Slide20" src="https://github.com/user-attachments/assets/c9ec9001-1bd6-428f-8656-29308e4076e0" />
 The chart illustrates manual occupations in red box and mental occupations in green box, revealing that customers in manual jobs tend to have higher rates of repayment difficulties than those in mental jobs.
 
+### 5. `Score of External` feature
+<img width="1280" height="720" alt="Slide21" src="https://github.com/user-attachments/assets/efe657e7-8c2a-4532-a1da-82ed953d6ff3" />
+EXT_SOURCE represents the credit scores assigned to individuals by external institutions. 
+In both features, repayment difficulties are mainly concentrated in the lower score segments, indicating that customers with lower credit scores are more likely to face challenges in repaying their loans.
 
-
-
+## Machine learning model
 
 
 
