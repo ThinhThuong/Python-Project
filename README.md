@@ -80,10 +80,16 @@ The importance of these features is intuitive: credit scores (EXT_SOURCE) direct
 
 Based on the analysis, several key factors were found to strongly influence customers’ loan repayment ability. In addition, different machine learning models were compared to identify the most effective approach for prediction.
 Key factors influencing repayment ability:
+
 *Gender: Male
+
 *Age: Youth
+
 *Level of Education: Lower education
+
 *Occupation Type: Physical jobs
+
 *External Score: Low score
+
 Best performing model: LightGBM – most effective in predicting customers’ repayment capacity
 Business implication: These insights can help lenders design more accurate credit risk assessment strategies and provide fairer access to loans for customers capable of repayment.
