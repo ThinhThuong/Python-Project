@@ -1,9 +1,9 @@
 # Python-Project
-## Context
+## I. Context
   Millions of people are denied access to loans because they lack sufficient credit history, leaving them vulnerable to unfair lending practices. Home Credit aims to address this issue by leveraging alternative data sources, such as telco and transactional information, to better predict clients’ repayment ability. 
 The challenge is to develop machine learning models that expand financial inclusion by ensuring capable borrowers are approved and provided with fair, supportive loan terms.
 
-## Dataset
+## II. Dataset
 <img width="1280" height="720" alt="Slide6" src="https://github.com/user-attachments/assets/54701cec-01b2-457c-af08-9c09b117f92e" />
   The dataset is sourced from a Kaggle competition and consists of seven files. However, to address the problem at hand, this project focuses on analyzing the application_{train|test}.csv files. These files are selected because they contain the target label necessary for building machine learning models. The dataset includes over 300,000 rows and 122 features.
 <img width="1280" height="720" alt="Slide7" src="https://github.com/user-attachments/assets/bcabe362-84ed-4d9d-be03-ddc564e32416" />
@@ -25,7 +25,7 @@ The challenge is to develop machine learning models that expand financial inclus
   
   <img width="1280" height="720" alt="Slide15" src="https://github.com/user-attachments/assets/415f5941-62dc-4ca8-a6e7-57b75216dfba" />
 
-## Insights
+## III. Insights
 ### 1. `Gender` feature
   <img width="1280" height="720" alt="Slide17" src="https://github.com/user-attachments/assets/72369139-5a3d-48a0-a3c4-76dffcdb0eb5" />
   Approximately 7% of women experience difficulties in loan repayment, compared to 10% of men. This aligns with Sangwan’s study, which concluded that women generally demonstrate stronger repayment capacity.
@@ -50,7 +50,18 @@ The chart illustrates manual occupations in red box and mental occupations in gr
 EXT_SOURCE represents the credit scores assigned to individuals by external institutions. 
 In both features, repayment difficulties are mainly concentrated in the lower score segments, indicating that customers with lower credit scores are more likely to face challenges in repaying their loans.
 
-## Machine learning model
+## IV. Machine learning model
+<img width="1280" height="720" alt="Slide23" src="https://github.com/user-attachments/assets/92f729e4-d451-4c05-b8bd-45a63407082f" />
 
+To predict customers' repayment ability, this project will evaluate several machine learning algorithms to identify the model with the highest prediction accuracy. 
+Since the dataset is **highly imbalanced**, accuracy alone is not an appropriate metric. Therefore, the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) will be used as the main evaluation metric for model comparison.
 
+The dataset will be preprocessed through several steps before being used in the machine learning algorithms. The dataset was preprocessed through the following steps:
+* Apply Label Encoding for categorical features
+* Fill missing values with the median
+* Use MinMax Scaler for feature normalization
+
+<img width="1280" height="720" alt="Slide25" src="https://github.com/user-attachments/assets/3fdeb670-28e2-4f21-b0f4-bd821e34236f" />
+
+The machine learning libraries applied in this project include Logistic Regression, LightGBM, and XGBoost.
 
