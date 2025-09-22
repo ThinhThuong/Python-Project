@@ -65,3 +65,25 @@ The dataset will be preprocessed through several steps before being used in the 
 
 The machine learning libraries applied in this project include Logistic Regression, LightGBM, and XGBoost.
 
+<img width="1280" height="720" alt="Slide26" src="https://github.com/user-attachments/assets/a1f21d69-ab45-41dd-811d-817e3fe307b5" />
+
+The results show that the AUC scores of LightGBM, XGBoost, and Logistic Regression are 0.75, 0.74, and 0.72, respectively. 
+Therefore, LightGBM is considered the most optimal method. After submitting the predictions on Kaggle, the model achieved a score of 0.74307.
+
+<img width="1280" height="720" alt="Slide27" src="https://github.com/user-attachments/assets/e3f27ec3-7e12-46f8-8a7f-cf34665c76a7" />
+
+For the LightGBM model, the most influential features are EXT_SOURCE_3, DAYS_BIRTH, and EXT_SOURCE_1. Therefore, these three features can be used for preliminary analysis to predict whether a customer is likely to experience difficulties in loan repayment. 
+The importance of these features is intuitive: credit scores (EXT_SOURCE) directly reflect customers’ creditworthiness, while age (DAYS_BIRTH) often correlates with financial stability and repayment behavior.
+
+## V. Conclusion
+<img width="1280" height="720" alt="Slide29" src="https://github.com/user-attachments/assets/5afe2c22-ef1f-45ab-bb23-683473e349b5" />
+
+Based on the analysis, several key factors were found to strongly influence customers’ loan repayment ability. In addition, different machine learning models were compared to identify the most effective approach for prediction.
+Key factors influencing repayment ability:
+*Gender: Male
+*Age: Youth
+*Level of Education: Lower education
+*Occupation Type: Physical jobs
+*External Score: Low score
+Best performing model: LightGBM – most effective in predicting customers’ repayment capacity
+Business implication: These insights can help lenders design more accurate credit risk assessment strategies and provide fairer access to loans for customers capable of repayment.
