@@ -11,8 +11,11 @@ For model evaluation, the project adopts the AUC-ROC metric to measure predictiv
 Final results will be submitted to the Kaggle competition platform for scoring. The ultimate goal is to identify a machine learning model that ensures clients capable of repayment are not unfairly rejected.
 
 Since the dataset contains 122 features, analyzing each one individually would be very time-consuming. Therefore, this project includes a literature review to identify which features are commonly reported in research as having significant influence on customers’ loan repayment ability. The reviewed scientific publications includes:
+
 *1. Sangwan, S., Nayak, N. C., & Samanta, D. (2020). Loan repayment behavior among the clients of Indian microfinance institutions: A household-level investigation. Journal of Human Behavior in the Social Environment, 30(4).*
+
 *2. Werema, S., & Opanga, K. (2016). Factors affecting clients on loan repayment for microfinance institutions: a case study of PRIDE Arusha, Tanzania. International journal of scientific and technical research in engineering, 1(8).*
+
 The literature review highlights four major determinants of customers’ loan repayment ability: `Gender`, `Age`, `Educational Attainment`, and `Occupation Type`.
 <img width="943" height="423" alt="image" src="https://github.com/user-attachments/assets/16a65380-d965-4dda-9828-9409c1f42129" />
 
