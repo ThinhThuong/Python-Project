@@ -18,9 +18,11 @@ The challenge is to develop machine learning models that expand financial inclus
 
   The review of the two research papers indicates that four major factors significantly affect customers’ loan repayment ability: Gender, Age, Educational Attainment, and Occupation Type. 
   The detailed impacts of these factors are presented in the following table.
+  
 <img width="943" height="423" alt="image" src="https://github.com/user-attachments/assets/16a65380-d965-4dda-9828-9409c1f42129" />
   
   But, How these features affect the customers’ loan repayment ability in the Home Credit's context
+  
   <img width="1280" height="720" alt="Slide15" src="https://github.com/user-attachments/assets/415f5941-62dc-4ca8-a6e7-57b75216dfba" />
 
 ## Insights
@@ -31,6 +33,7 @@ The challenge is to develop machine learning models that expand financial inclus
 ### 2. `Age` feature
 <img width="1280" height="720" alt="Slide18" src="https://github.com/user-attachments/assets/33551016-629c-4b4e-bb3b-d654e677ffdd" />
 - Left figure: Loan repayment difficulties are more concentrated among younger customers.
+
 - Right figure: Across age groups, the number of customers struggling with repayment decreases with increasing age.
 
 
