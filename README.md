@@ -32,6 +32,7 @@ The challenge is to develop machine learning models that expand financial inclus
   
 ### 2. `Age` feature
 <img width="1280" height="720" alt="Slide18" src="https://github.com/user-attachments/assets/33551016-629c-4b4e-bb3b-d654e677ffdd" />
+
 * Left figure: Loan repayment difficulties are more concentrated among younger customers.
 
 * Right figure: Across age groups, the number of customers struggling with repayment decreases with increasing age.
