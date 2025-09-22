@@ -33,12 +33,15 @@ The challenge is to develop machine learning models that expand financial inclus
 ### 2. `Age` feature
 <img width="1280" height="720" alt="Slide18" src="https://github.com/user-attachments/assets/33551016-629c-4b4e-bb3b-d654e677ffdd" />
 - Left figure: Loan repayment difficulties are more concentrated among younger customers.
-
 - Right figure: Across age groups, the number of customers struggling with repayment decreases with increasing age.
 
+### 3. `Education level` feature
+<img width="1280" height="720" alt="Slide19" src="https://github.com/user-attachments/assets/4a7fe41e-ab65-4a85-8f05-7365fd7154c3" />
+In the chart, where the x-axis is ordered from lower to higher education levels, indicates that customers with higher education tend to have fewer repayment difficulties compared to those with lower educational attainment.
 
-
-
+### 4. `Occupation type` feature
+<img width="1280" height="720" alt="Slide21" src="https://github.com/user-attachments/assets/efe657e7-8c2a-4532-a1da-82ed953d6ff3" />
+The chart illustrates manual occupations in red box and mental occupations in green box, revealing that customers in manual jobs tend to have higher rates of repayment difficulties than those in mental jobs.
 
 
 
